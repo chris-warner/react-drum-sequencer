@@ -11,3 +11,5 @@ Black, White text and sleek interface. Two buttons on each side of screen.
 ## 2. Visual Volume Meter
 Style:
 Desktop: Middle of screen, between drum pads. 
+
+

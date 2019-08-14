@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Grid from './componets/Grid/Grid';
+import Grid from './components/Grid/Grid.js';
 import './index.css';
 
 class App extends React.Component{
-    render(){
+    render() {
         return(
-            <div>React Drum Sequencer</div>
+            <div class="titleDiv">React Drum Sequencer</div>
         )
     }
 }
