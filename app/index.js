@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Grid from './componets/Grid/Grid';
 import './index.css';
 
 class App extends React.Component{
