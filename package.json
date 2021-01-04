@@ -34,5 +34,8 @@
       "@babel/preset-env",
       "@babel/preset-react"
     ]
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0"
   }
 }

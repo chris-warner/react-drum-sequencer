@@ -5,7 +5,7 @@ import './Header.css';
 function Header () {
     return (
     <div>
-        <div className="titleDiv">React Drum Sequencer</div>
+        <h1 className="titleDiv">React Drum Sequencer</h1>
     </div>
     )
 }

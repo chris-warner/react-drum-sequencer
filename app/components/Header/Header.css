@@ -5,12 +5,13 @@
     padding-top: 50px;
     padding-bottom: 50px;
     border-style: solid;
-    color: cyan;
-    background-color: black;
+    /* color: cyan; */
+    /* background-color: black; */
     border-bottom-color: black;
-    border-bottom-width: 2px;
+    border-bottom-width: 1px;
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
     font-size: large;
+    margin-bottom: 8px;
 }
