@@ -1,12 +1,15 @@
 // Header component.
 import React from 'react';
-import './Header.css';
+import { Navbar } from 'react-bootstrap';
 
-function Header () {
+
+function Header() {
     return (
-    <div>
-        <h1 className="titleDiv">React Drum Sequencer</h1>
-    </div>
+        <div>
+            <Navbar>
+                <Navbar.Brand href="#home">React Drum Sequencer</Navbar.Brand>
+            </Navbar>
+        </div>
     )
 }
 

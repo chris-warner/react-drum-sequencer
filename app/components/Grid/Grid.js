@@ -15,7 +15,7 @@ function Grid() {
                 <thead>
                     <tr>
                         {/* Header Table Row. */}
-                        <th className="headerTitle" colSpan="4">Drum Pads</th>
+                        <th className="headerTitle" colSpan="4"><h1>Drum Pads</h1></th>
                     </tr>
                 </thead>
                 <tbody>

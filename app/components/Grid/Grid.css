@@ -1,23 +1,20 @@
 /* Grid */
 /* Style Defaults: 4x4 Grid */
 
-table,
-td {
-}
-
 table {
-    border: 4px solid #333;
-    border-style: inset;
     width: 100%;    
+    margin-top:20px;
+    color:black;
 }
 
 thead,
 tfoot {
-    background-color: #333;
     color: #fff;
 }
 
 .headerTitle {
+    text-align: center;
+    color:black;
 
 }
 
