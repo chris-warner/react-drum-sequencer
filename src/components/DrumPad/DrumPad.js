@@ -11,13 +11,34 @@ function DrumPad(props) {
         sample.play();
     }
 
+    function IsPlayingg(props) {
+        return <h1>Is playing</h1>;
+    }
 
-return (
-    <div className="pad">
-        <button onClick={handleClick}>{props.name}</button>
-    </div>
+    function IsNotPlaying(props) {
+        return <h1>Is not playing</h1>
+    }
 
-)
+    function PlayState(props) {
+        const isPlaying = props.isPlaying;
+        if (isPlaying) {
+            console.log("is playing");
+            return <IsPlayingg />
+        }
+        else {
+            console.log("is not playing");
+            return <IsNotPlaying />
+        }
+    }
+
+
+    return (
+        <div className="pad">
+            {/* <PlayState isPlaying={true} /> */}
+            <button onClick={handleClick}>{props.name}</button>
+        </div>
+
+    )
 }
 
 export default DrumPad;
