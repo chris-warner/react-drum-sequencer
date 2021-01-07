@@ -1,9 +1,6 @@
 // Drum pad component.
 import React from 'react';
 import './DrumPad.css';
-import { Button } from '@material-ui/core/';
-import ReactAudioPlayer from 'react-audio-player';
-import Snare from '../../assets/samples/demo_kit_snare.wav';
 
 function DrumPad(props) {
 
@@ -17,7 +14,7 @@ function DrumPad(props) {
 
 return (
     <div className="pad">
-        <Button variant="contained" color="primary" onClick={handleClick}>Play</Button>
+        <button onClick={handleClick}>{props.name}</button>
     </div>
 
 )
