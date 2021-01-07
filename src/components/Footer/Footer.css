@@ -1,0 +1,16 @@
+.Footer {
+    background-color: black;
+    height: 40px;
+    color:aqua;
+    bottom: 0px;
+    border-top-width: 1px;
+    border-style: solid;
+    border-color: silver;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+
+    
+
+}

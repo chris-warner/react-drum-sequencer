@@ -1,23 +1,7 @@
 /* Grid */
 /* Style Defaults: 4x4 Grid */
 
-table {
-    width: 100%;    
-    margin-top:20px;
-    color:black;
-}
-
-thead,
-tfoot {
-    color: #fff;
-}
-
-.headerTitle {
-    text-align: center;
-    color:black;
-
-}
-
-.padRow {
-    height: 256px;
+.Grid {
+    top:0px;
+    margin-top: -89vh;
 }
