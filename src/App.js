@@ -6,9 +6,9 @@ import GSAPTest from './components/GSAPTest/GSAPTest.js';
 
 function App() {
   return (
-    <div>
+    <div className="mainDiv">
       <Header />
-      <GSAPTest />
+      {/* <GSAPTest /> */}
       <Grid />
       <Footer />
     </div>

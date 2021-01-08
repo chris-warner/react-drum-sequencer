@@ -14,8 +14,11 @@ class Cover extends Component {
         this.myTween = null;
     }
 
-    handleClick(e) {
+    handleClick = (e) => {
         e.preventDefault();
+        this.footer = document.getElementById("anchor1");
+        this.posTop = this.footer.offsetTop - 40;
+        this.myTween = gsap.to(this.myElement, 1, {y: this.posTop});
     }
     
      IsPlayingg = (props) => {
@@ -40,13 +43,13 @@ class Cover extends Component {
 
     componentDidMount() {
         // use the node ref to create the animation
-        this.myTween = gsap.to(this.myElement, 1, { x: 100, y: 100 });
+        
     }
 
     render() {
         return (
             <div className="panel w-full" ref={div => this.myElement = div } >
-                <button onClick={this.handleClick}>New Project</button>
+                <button className="coverButton" onClick={this.handleClick}>New Project</button>
         </div >
         );
     }

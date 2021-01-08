@@ -7,3 +7,9 @@
     height: 89vh;
     position: relative;
 }
+
+.coverButton {
+    align-self: center;
+    vertical-align: middle;
+    margin-top:220px;
+}
